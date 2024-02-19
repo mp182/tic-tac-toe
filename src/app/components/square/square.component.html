@@ -1,0 +1,13 @@
+@if (winnerPositions.length > 0 && winnerPositions.includes(position)) {
+<button class="winner" disabled>
+  {{ value }}
+</button>
+} @else {
+<button
+  [disabled]="winner"
+  [ngClass]="value === 'X' || value === 'O' ? value.toLowerCase() : null"
+  matRipple
+>
+  {{ value }}
+</button>
+}
