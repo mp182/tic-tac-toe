@@ -1,10 +1,14 @@
-@if (!winner) {
-<h1>Current Player: {{ player }}</h1>
-} @else {
-<h1>Player {{ winner }} won the game! 🎉</h1>
-}
+<div class="container">
+  @if (!winner) {
+  <h2>Current Player: {{ player }}</h2>
+  } @else {
+  <h2>Player {{ winner }} won the game! 🎉</h2>
+  }
 
-<button mat-raised-button color="primary" (click)="newGame()">New Game!</button>
+  <button mat-raised-button color="primary" (click)="newGame()">
+    New Game!
+  </button>
+</div>
 
 <main>
   @for (square of squares; track $index) {

@@ -1,14 +1,31 @@
+$columns: 3;
+$maxColumnWidth: 200px;
+$padding: 1em;
+
 main {
   display: grid;
-  grid-template-columns: 150px 150px 150px;
+  grid-template-columns: repeat(
+    $columns,
+    minmax(
+      min(calc((100vw - 2 * #{$padding}) / #{$columns}), #{$maxColumnWidth}),
+      1fr
+    )
+  );
   grid-gap: 0px;
+  padding: 0 #{$padding};
 }
 
 app-square {
   border: 1px gray solid;
-  height: 150px;
+  height: calc(
+    min((100vw - 2 * #{$padding}) / #{$columns}, #{$maxColumnWidth})
+  );
 }
 
 button {
   margin-bottom: 1em;
+}
+
+.container {
+  padding: 0 1em;
 }
