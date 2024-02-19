@@ -2,6 +2,10 @@
 
 This is a simple web-based Tic Tac Toe game built with Angular. It allows two players to take turns placing their marks (X or O) on a 3x3 grid, with the objective of getting three of their marks in a row, column, or diagonal.
 
+## Live Demo
+
+You can view a live demo at https://ta-te-ti-mp.web.app
+
 ## Features
 
 - Classic Tic Tac Toe gameplay.
