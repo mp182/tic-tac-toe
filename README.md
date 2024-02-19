@@ -1,27 +1,66 @@
-# TicTacToe
+# Tic Tac Toe
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.0.
+This is a simple web-based Tic Tac Toe game built with Angular. It allows two players to take turns placing their marks (X or O) on a 3x3 grid, with the objective of getting three of their marks in a row, column, or diagonal.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Classic Tic Tac Toe gameplay.
+- Responsive design, playable on both desktop and mobile devices.
+- Real-time feedback on game status (current player's turn, winner, or draw).
+- New Game button to start a new game at any time.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular: A popular JavaScript framework for building web applications.
+- HTML/CSS: For structuring and styling the user interface.
+- TypeScript: A superset of JavaScript that adds optional static typing.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To run the Tic Tac Toe game locally or contribute to the project, follow these steps:
 
-## Running unit tests
+1. Clone the repository to your local machine using Git:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+git clone https://github.com/mp182/tic-tac-toe.git
+```
 
-## Running end-to-end tests
+2. Navigate to the project directory:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```
+cd tic-tac-toe
+```
 
-## Further help
+3. Install the necessary dependencies using npm:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```
+npm install
+```
+
+4. Start the development server:
+
+```
+npm start
+```
+
+5. Open your web browser and visit `http://localhost:4200` to play the game.
+
+## How to Play
+
+- The game starts with Player 1 (X) making the first move.
+- Players take turns placing their marks (X or O) on empty squares by clicking on them.
+- The game ends when one player gets three of their marks in a row, column, or diagonal, or when the board is full (draw).
+- Click the New Game button to start a new game at any time.
+
+## Contributing
+
+Contributions to the Tic Tac Toe project are welcome! If you find any bugs, have suggestions for improvements, or want to add new features, feel free to open an issue or submit a pull request. Please follow the project's code of conduct.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- This project was inspired by the classic Tic Tac Toe game.
+- Special thanks to the Angular team for providing an excellent framework for building web applications.
