@@ -14,9 +14,9 @@ import { MatRippleModule } from '@angular/material/core';
 })
 export class SquareComponent {
 
-  @Input() position!: Number;
+  @Input() position!: number;
   @Input() value!: 'X' | 'O';
   @Input() winner!: string | null;
-  @Input() winnerPositions!: Number[];
+  @Input() winnerPositions!: number[];
 
 }
