@@ -16,7 +16,7 @@ import { SquareComponent } from '../square/square.component';
 })
 export class BoardComponent implements OnInit {
 
-  public squares!: ("X" | "O")[];
+  public squares!: ("X" | "O" | null)[];
   public winner!: string | null;
   public winnerPositions: number[] = [];
 
