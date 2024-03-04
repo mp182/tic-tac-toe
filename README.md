@@ -1,3 +1,5 @@
+[![Build and Deploy](https://github.com/mp182/tic-tac-toe/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mp182/tic-tac-toe/actions/workflows/main.yml)
+
 # Tic Tac Toe
 
 This is a simple web-based Tic Tac Toe game built with Angular. It allows two players to take turns placing their marks (X or O) on a 3x3 grid, with the objective of getting three of their marks in a row, column, or diagonal.
