@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tic-tac-toe-pm": {
+      "hosting": {
+        "tic-tac-toe": [
+          "ta-te-ti-mp"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tic-tac-toe-pm"
+  }
+}

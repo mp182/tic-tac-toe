@@ -1,0 +1,6 @@
+{
+  "hosting": {
+    "site": "ta-te-ti-mp",
+    "public": "dist/tic-tac-toe/browser"
+  }
+}
