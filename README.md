@@ -1,4 +1,5 @@
 [![Build and Deploy](https://github.com/mp182/tic-tac-toe/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/mp182/tic-tac-toe/actions/workflows/main.yml)
+[![CodeQL](https://github.com/mp182/tic-tac-toe/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/mp182/tic-tac-toe/actions/workflows/codeql.yml)
 
 # Tic Tac Toe
 
